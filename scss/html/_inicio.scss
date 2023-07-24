@@ -1,0 +1,26 @@
+@import "../utilidades/variables";
+@import "../utilidades/mixin.scss";
+
+.sectioninicio1{background-color:#D9D9D9;}
+
+.sectioninicio2{background-color: #EFE9E1;}
+
+header{@include estilos-tituloprincipal;
+}
+
+.container6{@include grid-mobil(1 ,1em)}
+
+.container6{@include grid-tablet(1 ,1em)}
+
+
+    footer{display: grid;}
+
+    .iraiginicio{font-size: 10px;}
+    .etiquetainicio{font-size: 10px;}
+    .derechosinicio{@extend %estilos-derechos;}
+    
+
+    
+
+
+   

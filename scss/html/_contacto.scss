@@ -1,0 +1,83 @@
+@import "../utilidades/variables";
+@import "../utilidades/mixin.scss";
+
+
+
+
+
+
+header{@include estilos-tituloprincipal;
+}
+
+.contacto{ display: grid; text-align: center;}
+
+.contacto{
+    display: grid; 
+    place-items: center;}
+
+
+.caja1{
+    display: grid; 
+    margin-left: 0.5rem;
+    margin-right: 0.5rem; 
+    gap: 12px;}
+
+    
+.titulodelmapa{ 
+    margin-left: 30px;
+    margin-top: 40px; 
+    margin-bottom: 20px;
+    margin-right: 80px;}
+
+
+.caja3{
+    background-color:#D9D9D9,}
+            
+.caja2{
+    background-color:  #EFE9E1;}
+            
+.caja4{
+    background-color: rgb(181, 185, 185);}
+            
+.mapa{
+    display: grid; 
+    justify-content: center; 
+    align-items: center; 
+    margin: 2rem; 
+    object-fit: cover}
+
+.telef{
+    display: grid;
+    font-size: 1rem;}
+
+.correos{
+    display: grid;
+    font-size: 1rem;}
+                    
+.footercontacto1{
+    display:grid;}
+  
+.volverarribacontac{
+    display: grid; 
+    place-items: center; 
+    font-size: 0.7rem;
+}
+
+.youtube{
+    font-size: 0.7rem;}
+
+.tlfcontacto{
+    display: grid;
+    margin: 0px 120px 15px 120px;}
+
+.derechoscontact{
+    display: grid; 
+    place-items: center;  
+    font-size: 0.7rem;}
+
+.menuoculto{
+    display: none;}
+
+    .youtube{font-size: 10px;}
+    .volverarribacontac{font-size: 10px;}
+    .derechoscontact{@extend %estilos-derechos;}

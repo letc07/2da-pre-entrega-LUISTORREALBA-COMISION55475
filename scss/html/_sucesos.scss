@@ -1,0 +1,30 @@
+@import "../utilidades/variables";
+@import "../utilidades/mixin.scss";
+
+@import "../utilidades/variables";
+@import "../utilidades/mixin.scss";
+
+.sectioninicio1{background-color:#D9D9D9;}
+
+.sectioninicio2{background-color: #EFE9E1;}
+
+header{@include estilos-tituloprincipal;
+}
+
+    .sucesos{ display: grid; text-align: center;}
+
+    .instagramsuces{font-size: 10px; margin-left: 10px;}
+    .volverarribasuces{font-size: 10px; margin-left: 10px;}
+    .derechossuces{@extend %estilos-derechos;}
+
+    .imagensucesos1{width: 70%; height: 70%; margin-top: 10px; margin-left: 55px;} 
+
+    .sectionsucesos1{display: inline-flex;}
+
+    .imagensucesos2{width: 33%; height: 33%;}
+    .imagensucesos3{width: 33%; height: 33%;}
+    .imagensucesos4{width: 33%; height: 33%;}
+    
+    .sectionsucesos2{display: inline-flex; margin-left: 10px; margin-right: 10px;}
+
+    .segundotextosuceso{margin-left: 10px; margin-right: 10px;}

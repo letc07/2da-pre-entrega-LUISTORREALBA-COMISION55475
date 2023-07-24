@@ -1,0 +1,174 @@
+    //pagina inicio mobil
+    @mixin grid-mobil( $columnas , $espacio){
+        display: grid;
+        grid-template-columns: repeat($columnas , 2fr);
+        gap: $espacio;
+    
+     @media screen and (min-width: 480px) {
+            grid-template-columns: 1fr ;
+            
+            gap: 1rem;
+            }
+        
+        .primertitulo1inicio{ margin-top: 5px; margin-left:25px;}
+    
+        .imgainicio{width: 90%; 
+            height:90% ; margin-left: 10px;
+    }
+    
+        .titulonoticia1{
+            margin-top: 5px;
+            margin-left: 5px;
+            margin-right: 5px;}
+    
+        .primerparrafoinicio{
+            font-size: small; 
+            margin-top: 5px;
+            margin-left: 5px;
+            margin-right: 5px;}
+    
+        .titulovideoinicio1{ 
+            margin-top: 5px;
+            margin-left: 5px;
+            margin-right: 5px;}
+    
+        .videoinicio1{margin-left: 10px;}}
+        
+    //pagina inicio tablet
+
+@mixin grid-tablet  ( $columnas , $espacio){
+    display: grid;
+    grid-template-columns: repeat($columnas , 2fr);
+    gap: $espacio;
+    
+    @media screen and (min-width: 720px ) { 
+        grid-template-columns: 1fr ;
+        gap:  1em;
+        
+        ;
+    }
+
+.imgainicio{height: 100% ; width: 100%; margin-left: 25px;}
+
+.primertitulo1inicio{text-align: center;}
+
+
+}
+
+//pagina compu
+
+@mixin grid-tablet  ( $columnas , $espacio){
+    display: grid;
+    grid-template-columns: repeat($columnas , 2fr);
+  
+    gap: $espacio;
+    
+    @media screen and (min-width: 900px ) { 
+        grid-template-columns: 1fr ;
+        gap:  1em;
+
+        .primertitulo1inicio{text-align: center;}
+        .imgainicio{height: 100%; width: 50%;
+        margin-left: 400px;}
+
+        .sectioninicio1{display: none;}
+    }
+
+    
+} 
+
+    @mixin estilos-tituloprincipal
+        {color: white;
+        text-align: center; }
+
+   
+
+
+   //pagina ultimas noticias tablet
+
+
+  
+@mixin grid-tabletun  ( $columnas , $espacio){
+    display: grid;
+    grid-template-columns: repeat($columnas , 2fr);
+    gap: $espacio;
+    
+    @media screen and (min-width: 900px) { 
+        grid-template-columns: 1fr ;
+        gap:  1em;      
+       
+
+        .segundotituloun{margin-left: 100px;}
+
+       }    
+
+     
+    }
+
+        
+         @mixin grid-compuun  ( $columnas , $espacio){
+                display: grid;
+                grid-template-columns: repeat($columnas , 2fr);
+                gap: $espacio;
+                
+                @media screen and (min-width:1300px) { 
+                    grid-template-columns: 1fr ;
+                    gap:  1em;    
+                    .primeraparte{display: none;}
+                   }    
+            
+                 
+                }
+            
+    
+             //pagina tablet inter
+
+    @mixin grid-tabletinter(){
+        display: grid;
+        
+     
+     @media screen and (min-width: 900px) {
+            
+          main .maininternacional{display: none;}
+            gap: 1rem;
+            }
+    
+        }
+
+        //pagina nacionales mobil
+
+        @mixin gridna ($columnas, $espacio)
+        {display : grid;
+         grid-template-columns: repeat($columnas, 1fr);
+         gap  : $espacio;
+
+         @media screen and (max-width:480px){
+            grid-template-columns: 1fr;
+            gap:10px;
+        
+         }
+            
+         }
+
+
+         @mixin gridnatablet ($columnas, $espacio)
+         {display : grid;
+          grid-template-columns: repeat($columnas, 1fr);
+          gap  : $espacio;
+ 
+          @media screen and (max-width:900px){
+             grid-template-columns: 2fr;
+             gap:10px;
+            .videoayudamc{display: none}
+            iframe .mariacorina{display: none}
+            .ejemplodosN{margin-left: 20px}
+          }
+     }
+
+        .mainnacional{@include gridnatablet (4, 1rem); display: grid;  
+        .imagennacional{width: 70%; height: 70%;
+        .primertitulonacional{display: none}
+
+       ;}
+    
+        }

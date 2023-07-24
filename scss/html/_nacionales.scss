@@ -1,0 +1,24 @@
+@import "../utilidades/variables";
+@import "../utilidades/mixin.scss";
+
+
+header{
+@include estilos-tituloprincipal;}
+
+.nacionales{display: grid; text-align: center;}
+
+.imagennacional{width:70%; height:70%; margin-top: 10px; margin-left: 60px;}
+
+.primertitulonacional{margin-top: 10px; margin-left: 10px; margin-right: 10px;}
+
+.primeranoticianacional{margin-top: 10px; margin-left: 10px; margin-right: 10px;}
+
+.img2maria{width:30%; height:30%;}
+
+.noticia2nacional{margin-top: 10px; margin-left: 10px; margin-right: 10px;}
+
+.textmariacorina{margin-top: 10px; margin-left: 10px; margin-right: 10px;}
+
+.facebun{margin-left: 10px; font-size: 10px;}
+.enlacearriban{margin-left: 10px; font-size: 10px;}
+.derechosn{@extend %estilos-derechos;}

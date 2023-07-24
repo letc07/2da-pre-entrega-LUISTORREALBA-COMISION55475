@@ -1,0 +1,24 @@
+@import "../utilidades/variables";
+@import "../utilidades/mixin.scss";
+
+ main .maininternacional{@include grid-tabletinter}
+
+header{
+ 
+    @include estilos-tituloprincipal;}
+
+.internacionales{  display: grid; text-align: center;}
+
+.imginternacional1{width:70%; height:70%; margin-left: 50px;}
+
+.ejemplointerdos{margin-left:30px;}
+
+.imagenrelleno1{width:30%; height:30%;}
+
+.imagenrelleno2{width:30%; height:30%;}
+.imagenrelleno3{width:30%; height:30%;}
+
+
+.facebuinter{margin-left: 10px; font-size: 10px;}
+.enlacearribainter{margin-left: 10px; font-size: 10px;}
+.derechosinter{@extend %estilos-derechos;}

@@ -1,0 +1,43 @@
+@import "../utilidades/variables";
+@import "../utilidades/mixin.scss";
+
+.sectioninicio1{background-color:#D9D9D9;}
+
+.sectioninicio2{background-color: #EFE9E1;}
+
+header{
+    @include estilos-tituloprincipal;}
+
+
+    .container{@include grid-compuun(1 ,1em)}
+
+    .container{@include grid-tabletun(1 ,1em)}
+
+    
+
+.dukevi{width:80%; height:100%; margin-top: 5px; margin-left: 40px;}
+
+.imgdesastrenatural{width:70%; height:auto; margin-top: 5px; margin-left: 55px;}
+
+
+.twitter{display: grid; place-content: end; justify-items: end
+    ; margin-top: 5px; margin-bottom: 5px;}
+
+.texvideo1un{margin-left: 10px;}
+
+.texvideo2un{margin-left: 10px}
+
+.noticia2un{margin-left: 10px}
+
+.segundotituloun{margin-left: 50px; }
+
+
+footer{display: grid;}
+
+.facebu{margin-left: 10px; font-size: 10px;}
+     
+.enlacearriba{margin-left: 10px; font-size: 10px;}
+     
+.derechosun{@extend %estilos-derechos;}
+
+ 
