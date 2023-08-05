@@ -6,31 +6,37 @@
 .sectioninicio2{background-color: #EFE9E1;}
 
 header{
-    @include estilos-tituloprincipal;}
+    @include estilos-tituloprincipal;
 
+    .container{@include grid-mobil(1 ,1em)}
 
-    .container{@include grid-compuun(1 ,1em)}
-
-    .container{@include grid-tabletun(1 ,1em)}
-
+    .container{@include grid-tablet (1 ,1em)}
     
-
-.dukevi{width:80%; height:100%; margin-top: 5px; margin-left: 40px;}
-
-.imgdesastrenatural{width:70%; height:auto; margin-top: 5px; margin-left: 55px;}
+    .container{@include grid-desktop (1 ,1em)}
+}
 
 
-.twitter{display: grid; place-content: end; justify-items: end
-    ; margin-top: 5px; margin-bottom: 5px;}
+.fototwitter{width: 40%; height: 50%; margin-left: 80px;}
 
-.texvideo1un{margin-left: 10px;}
+.segundotituloun{text-align: center; margin-right: 65px;}
 
-.texvideo2un{margin-left: 10px}
+.imgdesastrenatural{width:50%; height:auto; margin-top: 5px; margin-left: 55px;}
 
-.noticia2un{margin-left: 10px}
+
+.twitter{display: grid
+    ; margin-top: 5px; margin-bottom: 5px; margin-right: 10px;}
+
+.texvideo1un{margin-left: 10px;margin-right:10px ;}
+
+.texvideo2un{margin-left: 10px; margin-right:10px;}
+
+.noticia2un{margin-left: 10px;margin-right:10px; }
 
 .segundotituloun{margin-left: 50px; }
 
+.videotragedia{margin-left: 10px;}
+
+.videotragedia2{margin-left: 10px;}
 
 footer{display: grid;}
 

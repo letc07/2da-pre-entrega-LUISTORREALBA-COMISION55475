@@ -3,11 +3,13 @@
 
 
 header{
-@include estilos-tituloprincipal;}
-
+@include estilos-tituloprincipal;
+.container1{@include grid-mobil (1 ,1em)}
+.container1{@include grid-tablet (1 ,1em)}
+.container1{@include grid-desktop (1 ,1em)}}
 .nacionales{display: grid; text-align: center;}
 
-.imagennacional{width:70%; height:70%; margin-top: 10px; margin-left: 60px;}
+.primeraimagennacional{width:50%; height:40%; margin-top: 20px; margin-left: 60px;}
 
 .primertitulonacional{margin-top: 10px; margin-left: 10px; margin-right: 10px;}
 

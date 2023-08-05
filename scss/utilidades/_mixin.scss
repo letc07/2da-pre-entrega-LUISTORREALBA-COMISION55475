@@ -1,21 +1,37 @@
-    //pagina inicio mobil
+    //pagina mobil
     @mixin grid-mobil( $columnas , $espacio){
         display: grid;
         grid-template-columns: repeat($columnas , 2fr);
         gap: $espacio;
     
-     @media screen and (min-width: 480px) {
+     @media screen and (min-width:480px) {
             grid-template-columns: 1fr ;
             
             gap: 1rem;
+            .imgainicio12{width: 70%; height: 50%; margin-left: 70px;}
+            .primertitulo1inicio{text-align: center;}
+            .titulonoticia1{text-align: center;}
+            .titulovideoinicio1{margin-left: 40px;}
+            .primeraimagennacional{width: 80%; height: 40%; margin-top: 20px; margin-left: 30px;}
+            .videoayudamc{display: none;}
+            .mariacorina{display: none;}
+            .textmariacorina{display: none;}
+            .img2maria{margin-top: 20px; height: 60%; width: 32%;}
+            .videoayudamc1{margin-left: 5px;}
+            .imgdesastrenatural{width: 70%; height: 50%; margin-left: 70px;}
+          .dukevi{width:20%; height: 20%; margin-left: 50px;}
+            
             }
         
         .primertitulo1inicio{ margin-top: 5px; margin-left:25px;}
     
         .imgainicio{width: 90%; 
             height:90% ; margin-left: 10px;
+
+           
     }
     
+     
         .titulonoticia1{
             margin-top: 5px;
             margin-left: 5px;
@@ -34,141 +50,75 @@
     
         .videoinicio1{margin-left: 10px;}}
         
-    //pagina inicio tablet
+    //pagina tablet
 
 @mixin grid-tablet  ( $columnas , $espacio){
     display: grid;
     grid-template-columns: repeat($columnas , 2fr);
     gap: $espacio;
     
-    @media screen and (min-width: 720px ) { 
-        grid-template-columns: 1fr ;
-        gap:  1em;
-        
-        ;
-    }
+    @media screen and (max-width:480px){
+        grid-template-columns: 1fr;
+        gap:10px;
+
+        .fototwitter{height: 10px; width: 10px;}
+       .videoayudamc{display: none} 
+       iframe .mariacorina{display: none}
+       .ejemplodosN{margin-left: 20px}
+       .img2maria{display: none;}
+       .mariacorina{display: none;}
+       .videoayudamc1{margin-left: 15px;}
+       .primeraimagennacional{width: 80%; height: 40%; margin-top: 20px; margin-left: 30px;}
+
+       .segundotituloun{margin-left: 100px;}
+
+        .primertitulonacional{display: none}
+
+    
+        .primeraimagennacional{width: 50%; height: 50%; margin-top: 20px; margin-left: 160px;}
 
 .imgainicio{height: 100% ; width: 100%; margin-left: 25px;}
 
 .primertitulo1inicio{text-align: center;}
+.fototwitter{display: none;}
+}
 
 
 }
 
 //pagina compu
 
-@mixin grid-tablet  ( $columnas , $espacio){
+@mixin grid-desktop  ( $columnas , $espacio){
     display: grid;
     grid-template-columns: repeat($columnas , 2fr);
   
     gap: $espacio;
     
-    @media screen and (min-width: 900px ) { 
+    @media screen and (min-width: 1300px ) { 
         grid-template-columns: 1fr ;
         gap:  1em;
-
+        
         .primertitulo1inicio{text-align: center;}
-        .imgainicio{height: 100%; width: 50%;
-        margin-left: 400px;}
-
+        .imgainicio12{height: 45%; width: 45%;margin-bottom: 5px; margin-left: 376px;}
+      
+        .titulonoticia1{margin:10px; text-align: center;}
+        .primerparrafoinicio{font-size: large}
         .sectioninicio1{display: none;}
-    }
-
-    
+        .primeraparte{display: none;}
+        .primeraimagennacional{height:45%; width:45%; margin-top: 10px; margin-left: 465px;}
+        .videoayudamc{margin-left: 20px;}
+        .mariacorina{margin-left: 20px;}
+        .videoayudamc1{margin-left: 20px;} 
+        .primertitulonacional{text-align: center;}
+        
+        .img2maria{margin-top: 90px; height: 70%; width: 33%;}
+        
+        .fototwitter{display: none;}   
+    }  
 } 
 
-    @mixin estilos-tituloprincipal
-        {color: white;
-        text-align: center; }
-
-   
-
-
-   //pagina ultimas noticias tablet
-
-
-  
-@mixin grid-tabletun  ( $columnas , $espacio){
-    display: grid;
-    grid-template-columns: repeat($columnas , 2fr);
-    gap: $espacio;
-    
-    @media screen and (min-width: 900px) { 
-        grid-template-columns: 1fr ;
-        gap:  1em;      
-       
-
-        .segundotituloun{margin-left: 100px;}
-
-       }    
-
-     
-    }
-
-        
-         @mixin grid-compuun  ( $columnas , $espacio){
-                display: grid;
-                grid-template-columns: repeat($columnas , 2fr);
-                gap: $espacio;
-                
-                @media screen and (min-width:1300px) { 
-                    grid-template-columns: 1fr ;
-                    gap:  1em;    
-                    .primeraparte{display: none;}
-                   }    
-            
-                 
-                }
-            
-    
-             //pagina tablet inter
-
-    @mixin grid-tabletinter(){
-        display: grid;
-        
-     
-     @media screen and (min-width: 900px) {
-            
-          main .maininternacional{display: none;}
-            gap: 1rem;
-            }
-    
-        }
-
-        //pagina nacionales mobil
-
-        @mixin gridna ($columnas, $espacio)
-        {display : grid;
-         grid-template-columns: repeat($columnas, 1fr);
-         gap  : $espacio;
-
-         @media screen and (max-width:480px){
-            grid-template-columns: 1fr;
-            gap:10px;
-        
-         }
-            
-         }
-
-
-         @mixin gridnatablet ($columnas, $espacio)
-         {display : grid;
-          grid-template-columns: repeat($columnas, 1fr);
-          gap  : $espacio;
- 
-          @media screen and (max-width:900px){
-             grid-template-columns: 2fr;
-             gap:10px;
-            .videoayudamc{display: none}
-            iframe .mariacorina{display: none}
-            .ejemplodosN{margin-left: 20px}
-          }
-     }
-
-        .mainnacional{@include gridnatablet (4, 1rem); display: grid;  
-        .imagennacional{width: 70%; height: 70%;
-        .primertitulonacional{display: none}
-
-       ;}
-    
-        }
+    .imagensucesos1{height:50%; width: 50%;}
+          
+        @mixin estilos-tituloprincipal
+            {color: white;
+            text-align: center; }

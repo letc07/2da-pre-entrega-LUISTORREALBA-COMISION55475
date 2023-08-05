@@ -1,11 +1,16 @@
 @import "../utilidades/variables";
 @import "../utilidades/mixin.scss";
 
- main .maininternacional{@include grid-tabletinter}
+
 
 header{
  
-    @include estilos-tituloprincipal;}
+.container3{@include grid-mobil (1 ,1em)}
+.container3{@include grid-tablet (1 ,1em)}
+.container3{@include grid-desktop (1 ,1em)}}
+
+   
+
 
 .internacionales{  display: grid; text-align: center;}
 
@@ -22,3 +27,5 @@ header{
 .facebuinter{margin-left: 10px; font-size: 10px;}
 .enlacearribainter{margin-left: 10px; font-size: 10px;}
 .derechosinter{@extend %estilos-derechos;}
+
+.videomel{margin-left: 10px; margin-right: 10px;}

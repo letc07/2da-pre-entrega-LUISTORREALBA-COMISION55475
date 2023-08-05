@@ -9,6 +9,12 @@
 .sectioninicio2{background-color: #EFE9E1;}
 
 header{@include estilos-tituloprincipal;
+    
+    .container4{@include grid-mobil(1 ,1em)}
+    
+    .container4{@include grid-tablet(1 ,1em)}
+    
+    .container4{@include grid-desktop (1 ,1em)}
 }
 
     .sucesos{ display: grid; text-align: center;}

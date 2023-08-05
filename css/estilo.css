@@ -1,23 +1,7 @@
-.mainnacional {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 1rem;
-  display: grid; }
-  @media screen and (max-width: 900px) {
-    .mainnacional {
-      grid-template-columns: 2fr;
-      gap: 10px; }
-      .mainnacional .videoayudamc {
-        display: none; }
-      .mainnacional iframe .mariacorina {
-        display: none; }
-      .mainnacional .ejemplodosN {
-        margin-left: 20px; } }
-  .mainnacional .imagennacional {
-    width: 70%;
-    height: 70%; }
-    .mainnacional .imagennacional .primertitulonacional {
-      display: none; }
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+.imagensucesos1 {
+  height: 50%;
+  width: 50%; }
 
 .derechossuces, .derechosn, .derechosinicio, .derechoscontact, .derechosinter, .derechosun {
   color: white;
@@ -31,47 +15,13 @@
   padding: 0;
   box-sizing: border-box; }
 
-.mainnacional {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 1rem;
-  display: grid; }
-  @media screen and (max-width: 900px) {
-    .mainnacional {
-      grid-template-columns: 2fr;
-      gap: 10px; }
-      .mainnacional .videoayudamc {
-        display: none; }
-      .mainnacional iframe .mariacorina {
-        display: none; }
-      .mainnacional .ejemplodosN {
-        margin-left: 20px; } }
-  .mainnacional .imagennacional {
-    width: 70%;
-    height: 70%; }
-    .mainnacional .imagennacional .primertitulonacional {
-      display: none; }
+.imagensucesos1 {
+  height: 50%;
+  width: 50%; }
 
-.mainnacional {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 1rem;
-  display: grid; }
-  @media screen and (max-width: 900px) {
-    .mainnacional {
-      grid-template-columns: 2fr;
-      gap: 10px; }
-      .mainnacional .videoayudamc {
-        display: none; }
-      .mainnacional iframe .mariacorina {
-        display: none; }
-      .mainnacional .ejemplodosN {
-        margin-left: 20px; } }
-  .mainnacional .imagennacional {
-    width: 70%;
-    height: 70%; }
-    .mainnacional .imagennacional .primertitulonacional {
-      display: none; }
+.imagensucesos1 {
+  height: 50%;
+  width: 50%; }
 
 .sectioninicio1 {
   background-color: #D9D9D9; }
@@ -82,6 +32,159 @@
 header {
   color: white;
   text-align: center; }
+  header .container4 {
+    display: grid;
+    grid-template-columns: repeat(1, 2fr);
+    gap: 1em; }
+    @media screen and (min-width: 480px) {
+      header .container4 {
+        grid-template-columns: 1fr;
+        gap: 1rem; }
+        header .container4 .imgainicio12 {
+          width: 70%;
+          height: 50%;
+          margin-left: 70px; }
+        header .container4 .primertitulo1inicio {
+          text-align: center; }
+        header .container4 .titulonoticia1 {
+          text-align: center; }
+        header .container4 .titulovideoinicio1 {
+          margin-left: 40px; }
+        header .container4 .primeraimagennacional {
+          width: 80%;
+          height: 40%;
+          margin-top: 20px;
+          margin-left: 30px; }
+        header .container4 .videoayudamc {
+          display: none; }
+        header .container4 .mariacorina {
+          display: none; }
+        header .container4 .textmariacorina {
+          display: none; }
+        header .container4 .img2maria {
+          margin-top: 20px;
+          height: 60%;
+          width: 32%; }
+        header .container4 .videoayudamc1 {
+          margin-left: 5px; }
+        header .container4 .imgdesastrenatural {
+          width: 70%;
+          height: 50%;
+          margin-left: 70px; }
+        header .container4 .dukevi {
+          width: 20%;
+          height: 20%;
+          margin-left: 50px; } }
+    header .container4 .primertitulo1inicio {
+      margin-top: 5px;
+      margin-left: 25px; }
+    header .container4 .imgainicio {
+      width: 90%;
+      height: 90%;
+      margin-left: 10px; }
+    header .container4 .titulonoticia1 {
+      margin-top: 5px;
+      margin-left: 5px;
+      margin-right: 5px; }
+    header .container4 .primerparrafoinicio {
+      font-size: small;
+      margin-top: 5px;
+      margin-left: 5px;
+      margin-right: 5px; }
+    header .container4 .titulovideoinicio1 {
+      margin-top: 5px;
+      margin-left: 5px;
+      margin-right: 5px; }
+    header .container4 .videoinicio1 {
+      margin-left: 10px; }
+  header .container4 {
+    display: grid;
+    grid-template-columns: repeat(1, 2fr);
+    gap: 1em; }
+    @media screen and (max-width: 480px) {
+      header .container4 {
+        grid-template-columns: 1fr;
+        gap: 10px; }
+        header .container4 .fototwitter {
+          height: 10px;
+          width: 10px; }
+        header .container4 .videoayudamc {
+          display: none; }
+        header .container4 iframe .mariacorina {
+          display: none; }
+        header .container4 .ejemplodosN {
+          margin-left: 20px; }
+        header .container4 .img2maria {
+          display: none; }
+        header .container4 .mariacorina {
+          display: none; }
+        header .container4 .videoayudamc1 {
+          margin-left: 15px; }
+        header .container4 .primeraimagennacional {
+          width: 80%;
+          height: 40%;
+          margin-top: 20px;
+          margin-left: 30px; }
+        header .container4 .segundotituloun {
+          margin-left: 100px; }
+        header .container4 .primertitulonacional {
+          display: none; }
+        header .container4 .primeraimagennacional {
+          width: 50%;
+          height: 50%;
+          margin-top: 20px;
+          margin-left: 160px; }
+        header .container4 .imgainicio {
+          height: 100%;
+          width: 100%;
+          margin-left: 25px; }
+        header .container4 .primertitulo1inicio {
+          text-align: center; }
+        header .container4 .fototwitter {
+          display: none; } }
+  header .container4 {
+    display: grid;
+    grid-template-columns: repeat(1, 2fr);
+    gap: 1em; }
+    @media screen and (min-width: 1300px) {
+      header .container4 {
+        grid-template-columns: 1fr;
+        gap: 1em; }
+        header .container4 .primertitulo1inicio {
+          text-align: center; }
+        header .container4 .imgainicio12 {
+          height: 45%;
+          width: 45%;
+          margin-bottom: 5px;
+          margin-left: 376px; }
+        header .container4 .titulonoticia1 {
+          margin: 10px;
+          text-align: center; }
+        header .container4 .primerparrafoinicio {
+          font-size: large; }
+        header .container4 .sectioninicio1 {
+          display: none; }
+        header .container4 .primeraparte {
+          display: none; }
+        header .container4 .primeraimagennacional {
+          height: 45%;
+          width: 45%;
+          margin-top: 10px;
+          margin-left: 465px; }
+        header .container4 .videoayudamc {
+          margin-left: 20px; }
+        header .container4 .mariacorina {
+          margin-left: 20px; }
+        header .container4 .videoayudamc1 {
+          margin-left: 20px; }
+        header .container4 .primertitulonacional {
+          text-align: center; }
+        header .container4 .img2maria {
+          margin-top: 90px;
+          height: 70%;
+          width: 33%; }
+        header .container4 .fototwitter {
+          display: none; } }
 
 .sucesos {
   display: grid;
@@ -125,39 +228,175 @@ header {
   margin-left: 10px;
   margin-right: 10px; }
 
-.mainnacional {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 1rem;
-  display: grid; }
-  @media screen and (max-width: 900px) {
-    .mainnacional {
-      grid-template-columns: 2fr;
-      gap: 10px; }
-      .mainnacional .videoayudamc {
-        display: none; }
-      .mainnacional iframe .mariacorina {
-        display: none; }
-      .mainnacional .ejemplodosN {
-        margin-left: 20px; } }
-  .mainnacional .imagennacional {
-    width: 70%;
-    height: 70%; }
-    .mainnacional .imagennacional .primertitulonacional {
-      display: none; }
+.imagensucesos1 {
+  height: 50%;
+  width: 50%; }
 
 header {
   color: white;
   text-align: center; }
+  header .container1 {
+    display: grid;
+    grid-template-columns: repeat(1, 2fr);
+    gap: 1em; }
+    @media screen and (min-width: 480px) {
+      header .container1 {
+        grid-template-columns: 1fr;
+        gap: 1rem; }
+        header .container1 .imgainicio12 {
+          width: 70%;
+          height: 50%;
+          margin-left: 70px; }
+        header .container1 .primertitulo1inicio {
+          text-align: center; }
+        header .container1 .titulonoticia1 {
+          text-align: center; }
+        header .container1 .titulovideoinicio1 {
+          margin-left: 40px; }
+        header .container1 .primeraimagennacional {
+          width: 80%;
+          height: 40%;
+          margin-top: 20px;
+          margin-left: 30px; }
+        header .container1 .videoayudamc {
+          display: none; }
+        header .container1 .mariacorina {
+          display: none; }
+        header .container1 .textmariacorina {
+          display: none; }
+        header .container1 .img2maria {
+          margin-top: 20px;
+          height: 60%;
+          width: 32%; }
+        header .container1 .videoayudamc1 {
+          margin-left: 5px; }
+        header .container1 .imgdesastrenatural {
+          width: 70%;
+          height: 50%;
+          margin-left: 70px; }
+        header .container1 .dukevi {
+          width: 20%;
+          height: 20%;
+          margin-left: 50px; } }
+    header .container1 .primertitulo1inicio {
+      margin-top: 5px;
+      margin-left: 25px; }
+    header .container1 .imgainicio {
+      width: 90%;
+      height: 90%;
+      margin-left: 10px; }
+    header .container1 .titulonoticia1 {
+      margin-top: 5px;
+      margin-left: 5px;
+      margin-right: 5px; }
+    header .container1 .primerparrafoinicio {
+      font-size: small;
+      margin-top: 5px;
+      margin-left: 5px;
+      margin-right: 5px; }
+    header .container1 .titulovideoinicio1 {
+      margin-top: 5px;
+      margin-left: 5px;
+      margin-right: 5px; }
+    header .container1 .videoinicio1 {
+      margin-left: 10px; }
+  header .container1 {
+    display: grid;
+    grid-template-columns: repeat(1, 2fr);
+    gap: 1em; }
+    @media screen and (max-width: 480px) {
+      header .container1 {
+        grid-template-columns: 1fr;
+        gap: 10px; }
+        header .container1 .fototwitter {
+          height: 10px;
+          width: 10px; }
+        header .container1 .videoayudamc {
+          display: none; }
+        header .container1 iframe .mariacorina {
+          display: none; }
+        header .container1 .ejemplodosN {
+          margin-left: 20px; }
+        header .container1 .img2maria {
+          display: none; }
+        header .container1 .mariacorina {
+          display: none; }
+        header .container1 .videoayudamc1 {
+          margin-left: 15px; }
+        header .container1 .primeraimagennacional {
+          width: 80%;
+          height: 40%;
+          margin-top: 20px;
+          margin-left: 30px; }
+        header .container1 .segundotituloun {
+          margin-left: 100px; }
+        header .container1 .primertitulonacional {
+          display: none; }
+        header .container1 .primeraimagennacional {
+          width: 50%;
+          height: 50%;
+          margin-top: 20px;
+          margin-left: 160px; }
+        header .container1 .imgainicio {
+          height: 100%;
+          width: 100%;
+          margin-left: 25px; }
+        header .container1 .primertitulo1inicio {
+          text-align: center; }
+        header .container1 .fototwitter {
+          display: none; } }
+  header .container1 {
+    display: grid;
+    grid-template-columns: repeat(1, 2fr);
+    gap: 1em; }
+    @media screen and (min-width: 1300px) {
+      header .container1 {
+        grid-template-columns: 1fr;
+        gap: 1em; }
+        header .container1 .primertitulo1inicio {
+          text-align: center; }
+        header .container1 .imgainicio12 {
+          height: 45%;
+          width: 45%;
+          margin-bottom: 5px;
+          margin-left: 376px; }
+        header .container1 .titulonoticia1 {
+          margin: 10px;
+          text-align: center; }
+        header .container1 .primerparrafoinicio {
+          font-size: large; }
+        header .container1 .sectioninicio1 {
+          display: none; }
+        header .container1 .primeraparte {
+          display: none; }
+        header .container1 .primeraimagennacional {
+          height: 45%;
+          width: 45%;
+          margin-top: 10px;
+          margin-left: 465px; }
+        header .container1 .videoayudamc {
+          margin-left: 20px; }
+        header .container1 .mariacorina {
+          margin-left: 20px; }
+        header .container1 .videoayudamc1 {
+          margin-left: 20px; }
+        header .container1 .primertitulonacional {
+          text-align: center; }
+        header .container1 .img2maria {
+          margin-top: 90px;
+          height: 70%;
+          width: 33%; }
+        header .container1 .fototwitter {
+          display: none; } }
 
 .nacionales {
   display: grid;
   text-align: center; }
 
-.imagennacional {
-  width: 70%;
-  height: 70%;
-  margin-top: 10px;
+.primeraimagennacional {
+  width: 50%;
+  height: 40%;
+  margin-top: 20px;
   margin-left: 60px; }
 
 .primertitulonacional {
@@ -192,26 +431,9 @@ header {
   margin-left: 10px;
   font-size: 10px; }
 
-.mainnacional {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 1rem;
-  display: grid; }
-  @media screen and (max-width: 900px) {
-    .mainnacional {
-      grid-template-columns: 2fr;
-      gap: 10px; }
-      .mainnacional .videoayudamc {
-        display: none; }
-      .mainnacional iframe .mariacorina {
-        display: none; }
-      .mainnacional .ejemplodosN {
-        margin-left: 20px; } }
-  .mainnacional .imagennacional {
-    width: 70%;
-    height: 70%; }
-    .mainnacional .imagennacional .primertitulonacional {
-      display: none; }
+.imagensucesos1 {
+  height: 50%;
+  width: 50%; }
 
 .sectioninicio1 {
   background-color: #D9D9D9; }
@@ -222,54 +444,159 @@ header {
 header {
   color: white;
   text-align: center; }
-
-.container6 {
-  display: grid;
-  grid-template-columns: repeat(1, 2fr);
-  gap: 1em; }
-  @media screen and (min-width: 480px) {
-    .container6 {
-      grid-template-columns: 1fr;
-      gap: 1rem; } }
-  .container6 .primertitulo1inicio {
-    margin-top: 5px;
-    margin-left: 25px; }
-  .container6 .imgainicio {
-    width: 90%;
-    height: 90%;
-    margin-left: 10px; }
-  .container6 .titulonoticia1 {
-    margin-top: 5px;
-    margin-left: 5px;
-    margin-right: 5px; }
-  .container6 .primerparrafoinicio {
-    font-size: small;
-    margin-top: 5px;
-    margin-left: 5px;
-    margin-right: 5px; }
-  .container6 .titulovideoinicio1 {
-    margin-top: 5px;
-    margin-left: 5px;
-    margin-right: 5px; }
-  .container6 .videoinicio1 {
-    margin-left: 10px; }
-
-.container6 {
-  display: grid;
-  grid-template-columns: repeat(1, 2fr);
-  gap: 1em; }
-  @media screen and (min-width: 900px) {
-    .container6 {
-      grid-template-columns: 1fr;
-      gap: 1em; }
-      .container6 .primertitulo1inicio {
-        text-align: center; }
-      .container6 .imgainicio {
-        height: 100%;
-        width: 50%;
-        margin-left: 400px; }
-      .container6 .sectioninicio1 {
-        display: none; } }
+  header .container6 {
+    display: grid;
+    grid-template-columns: repeat(1, 2fr);
+    gap: 1em; }
+    @media screen and (min-width: 480px) {
+      header .container6 {
+        grid-template-columns: 1fr;
+        gap: 1rem; }
+        header .container6 .imgainicio12 {
+          width: 70%;
+          height: 50%;
+          margin-left: 70px; }
+        header .container6 .primertitulo1inicio {
+          text-align: center; }
+        header .container6 .titulonoticia1 {
+          text-align: center; }
+        header .container6 .titulovideoinicio1 {
+          margin-left: 40px; }
+        header .container6 .primeraimagennacional {
+          width: 80%;
+          height: 40%;
+          margin-top: 20px;
+          margin-left: 30px; }
+        header .container6 .videoayudamc {
+          display: none; }
+        header .container6 .mariacorina {
+          display: none; }
+        header .container6 .textmariacorina {
+          display: none; }
+        header .container6 .img2maria {
+          margin-top: 20px;
+          height: 60%;
+          width: 32%; }
+        header .container6 .videoayudamc1 {
+          margin-left: 5px; }
+        header .container6 .imgdesastrenatural {
+          width: 70%;
+          height: 50%;
+          margin-left: 70px; }
+        header .container6 .dukevi {
+          width: 20%;
+          height: 20%;
+          margin-left: 50px; } }
+    header .container6 .primertitulo1inicio {
+      margin-top: 5px;
+      margin-left: 25px; }
+    header .container6 .imgainicio {
+      width: 90%;
+      height: 90%;
+      margin-left: 10px; }
+    header .container6 .titulonoticia1 {
+      margin-top: 5px;
+      margin-left: 5px;
+      margin-right: 5px; }
+    header .container6 .primerparrafoinicio {
+      font-size: small;
+      margin-top: 5px;
+      margin-left: 5px;
+      margin-right: 5px; }
+    header .container6 .titulovideoinicio1 {
+      margin-top: 5px;
+      margin-left: 5px;
+      margin-right: 5px; }
+    header .container6 .videoinicio1 {
+      margin-left: 10px; }
+  header .container6 {
+    display: grid;
+    grid-template-columns: repeat(1, 2fr);
+    gap: 1em; }
+    @media screen and (max-width: 480px) {
+      header .container6 {
+        grid-template-columns: 1fr;
+        gap: 10px; }
+        header .container6 .fototwitter {
+          height: 10px;
+          width: 10px; }
+        header .container6 .videoayudamc {
+          display: none; }
+        header .container6 iframe .mariacorina {
+          display: none; }
+        header .container6 .ejemplodosN {
+          margin-left: 20px; }
+        header .container6 .img2maria {
+          display: none; }
+        header .container6 .mariacorina {
+          display: none; }
+        header .container6 .videoayudamc1 {
+          margin-left: 15px; }
+        header .container6 .primeraimagennacional {
+          width: 80%;
+          height: 40%;
+          margin-top: 20px;
+          margin-left: 30px; }
+        header .container6 .segundotituloun {
+          margin-left: 100px; }
+        header .container6 .primertitulonacional {
+          display: none; }
+        header .container6 .primeraimagennacional {
+          width: 50%;
+          height: 50%;
+          margin-top: 20px;
+          margin-left: 160px; }
+        header .container6 .imgainicio {
+          height: 100%;
+          width: 100%;
+          margin-left: 25px; }
+        header .container6 .primertitulo1inicio {
+          text-align: center; }
+        header .container6 .fototwitter {
+          display: none; } }
+  header .container6 {
+    display: grid;
+    grid-template-columns: repeat(1, 2fr);
+    gap: 1em; }
+    @media screen and (min-width: 1300px) {
+      header .container6 {
+        grid-template-columns: 1fr;
+        gap: 1em; }
+        header .container6 .primertitulo1inicio {
+          text-align: center; }
+        header .container6 .imgainicio12 {
+          height: 45%;
+          width: 45%;
+          margin-bottom: 5px;
+          margin-left: 376px; }
+        header .container6 .titulonoticia1 {
+          margin: 10px;
+          text-align: center; }
+        header .container6 .primerparrafoinicio {
+          font-size: large; }
+        header .container6 .sectioninicio1 {
+          display: none; }
+        header .container6 .primeraparte {
+          display: none; }
+        header .container6 .primeraimagennacional {
+          height: 45%;
+          width: 45%;
+          margin-top: 10px;
+          margin-left: 465px; }
+        header .container6 .videoayudamc {
+          margin-left: 20px; }
+        header .container6 .mariacorina {
+          margin-left: 20px; }
+        header .container6 .videoayudamc1 {
+          margin-left: 20px; }
+        header .container6 .primertitulonacional {
+          text-align: center; }
+        header .container6 .img2maria {
+          margin-top: 90px;
+          height: 70%;
+          width: 33%; }
+        header .container6 .fototwitter {
+          display: none; } }
 
 footer {
   display: grid; }
@@ -280,26 +607,17 @@ footer {
 .etiquetainicio {
   font-size: 10px; }
 
-.mainnacional {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 1rem;
-  display: grid; }
-  @media screen and (max-width: 900px) {
-    .mainnacional {
-      grid-template-columns: 2fr;
-      gap: 10px; }
-      .mainnacional .videoayudamc {
-        display: none; }
-      .mainnacional iframe .mariacorina {
-        display: none; }
-      .mainnacional .ejemplodosN {
-        margin-left: 20px; } }
-  .mainnacional .imagennacional {
-    width: 70%;
-    height: 70%; }
-    .mainnacional .imagennacional .primertitulonacional {
-      display: none; }
+.imgainicio12 {
+  width: 50%;
+  height: 35%;
+  margin-left: 90px; }
+
+.titulonoticia1 {
+  text-align: center; }
+
+.imagensucesos1 {
+  height: 50%;
+  width: 50%; }
 
 header {
   color: white;
@@ -378,38 +696,165 @@ header {
 .volverarribacontac {
   font-size: 10px; }
 
-.mainnacional {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 1rem;
-  display: grid; }
-  @media screen and (max-width: 900px) {
-    .mainnacional {
-      grid-template-columns: 2fr;
-      gap: 10px; }
-      .mainnacional .videoayudamc {
-        display: none; }
-      .mainnacional iframe .mariacorina {
-        display: none; }
-      .mainnacional .ejemplodosN {
-        margin-left: 20px; } }
-  .mainnacional .imagennacional {
-    width: 70%;
-    height: 70%; }
-    .mainnacional .imagennacional .primertitulonacional {
-      display: none; }
+.imagensucesos1 {
+  height: 50%;
+  width: 50%; }
 
-main .maininternacional {
-  display: grid; }
-  @media screen and (min-width: 900px) {
-    main .maininternacional {
+header .container3 {
+  display: grid;
+  grid-template-columns: repeat(1, 2fr);
+  gap: 1em; }
+  @media screen and (min-width: 480px) {
+    header .container3 {
+      grid-template-columns: 1fr;
       gap: 1rem; }
-      main .maininternacional main .maininternacional {
+      header .container3 .imgainicio12 {
+        width: 70%;
+        height: 50%;
+        margin-left: 70px; }
+      header .container3 .primertitulo1inicio {
+        text-align: center; }
+      header .container3 .titulonoticia1 {
+        text-align: center; }
+      header .container3 .titulovideoinicio1 {
+        margin-left: 40px; }
+      header .container3 .primeraimagennacional {
+        width: 80%;
+        height: 40%;
+        margin-top: 20px;
+        margin-left: 30px; }
+      header .container3 .videoayudamc {
+        display: none; }
+      header .container3 .mariacorina {
+        display: none; }
+      header .container3 .textmariacorina {
+        display: none; }
+      header .container3 .img2maria {
+        margin-top: 20px;
+        height: 60%;
+        width: 32%; }
+      header .container3 .videoayudamc1 {
+        margin-left: 5px; }
+      header .container3 .imgdesastrenatural {
+        width: 70%;
+        height: 50%;
+        margin-left: 70px; }
+      header .container3 .dukevi {
+        width: 20%;
+        height: 20%;
+        margin-left: 50px; } }
+  header .container3 .primertitulo1inicio {
+    margin-top: 5px;
+    margin-left: 25px; }
+  header .container3 .imgainicio {
+    width: 90%;
+    height: 90%;
+    margin-left: 10px; }
+  header .container3 .titulonoticia1 {
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 5px; }
+  header .container3 .primerparrafoinicio {
+    font-size: small;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 5px; }
+  header .container3 .titulovideoinicio1 {
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 5px; }
+  header .container3 .videoinicio1 {
+    margin-left: 10px; }
+
+header .container3 {
+  display: grid;
+  grid-template-columns: repeat(1, 2fr);
+  gap: 1em; }
+  @media screen and (max-width: 480px) {
+    header .container3 {
+      grid-template-columns: 1fr;
+      gap: 10px; }
+      header .container3 .fototwitter {
+        height: 10px;
+        width: 10px; }
+      header .container3 .videoayudamc {
+        display: none; }
+      header .container3 iframe .mariacorina {
+        display: none; }
+      header .container3 .ejemplodosN {
+        margin-left: 20px; }
+      header .container3 .img2maria {
+        display: none; }
+      header .container3 .mariacorina {
+        display: none; }
+      header .container3 .videoayudamc1 {
+        margin-left: 15px; }
+      header .container3 .primeraimagennacional {
+        width: 80%;
+        height: 40%;
+        margin-top: 20px;
+        margin-left: 30px; }
+      header .container3 .segundotituloun {
+        margin-left: 100px; }
+      header .container3 .primertitulonacional {
+        display: none; }
+      header .container3 .primeraimagennacional {
+        width: 50%;
+        height: 50%;
+        margin-top: 20px;
+        margin-left: 160px; }
+      header .container3 .imgainicio {
+        height: 100%;
+        width: 100%;
+        margin-left: 25px; }
+      header .container3 .primertitulo1inicio {
+        text-align: center; }
+      header .container3 .fototwitter {
         display: none; } }
 
-header {
-  color: white;
-  text-align: center; }
+header .container3 {
+  display: grid;
+  grid-template-columns: repeat(1, 2fr);
+  gap: 1em; }
+  @media screen and (min-width: 1300px) {
+    header .container3 {
+      grid-template-columns: 1fr;
+      gap: 1em; }
+      header .container3 .primertitulo1inicio {
+        text-align: center; }
+      header .container3 .imgainicio12 {
+        height: 45%;
+        width: 45%;
+        margin-bottom: 5px;
+        margin-left: 376px; }
+      header .container3 .titulonoticia1 {
+        margin: 10px;
+        text-align: center; }
+      header .container3 .primerparrafoinicio {
+        font-size: large; }
+      header .container3 .sectioninicio1 {
+        display: none; }
+      header .container3 .primeraparte {
+        display: none; }
+      header .container3 .primeraimagennacional {
+        height: 45%;
+        width: 45%;
+        margin-top: 10px;
+        margin-left: 465px; }
+      header .container3 .videoayudamc {
+        margin-left: 20px; }
+      header .container3 .mariacorina {
+        margin-left: 20px; }
+      header .container3 .videoayudamc1 {
+        margin-left: 20px; }
+      header .container3 .primertitulonacional {
+        text-align: center; }
+      header .container3 .img2maria {
+        margin-top: 90px;
+        height: 70%;
+        width: 33%; }
+      header .container3 .fototwitter {
+        display: none; } }
 
 .internacionales {
   display: grid;
@@ -443,26 +888,13 @@ header {
   margin-left: 10px;
   font-size: 10px; }
 
-.mainnacional {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 1rem;
-  display: grid; }
-  @media screen and (max-width: 900px) {
-    .mainnacional {
-      grid-template-columns: 2fr;
-      gap: 10px; }
-      .mainnacional .videoayudamc {
-        display: none; }
-      .mainnacional iframe .mariacorina {
-        display: none; }
-      .mainnacional .ejemplodosN {
-        margin-left: 20px; } }
-  .mainnacional .imagennacional {
-    width: 70%;
-    height: 70%; }
-    .mainnacional .imagennacional .primertitulonacional {
-      display: none; }
+.videomel {
+  margin-left: 10px;
+  margin-right: 10px; }
+
+.imagensucesos1 {
+  height: 50%;
+  width: 50%; }
 
 .sectioninicio1 {
   background-color: #D9D9D9; }
@@ -473,59 +905,201 @@ header {
 header {
   color: white;
   text-align: center; }
+  header .container {
+    display: grid;
+    grid-template-columns: repeat(1, 2fr);
+    gap: 1em; }
+    @media screen and (min-width: 480px) {
+      header .container {
+        grid-template-columns: 1fr;
+        gap: 1rem; }
+        header .container .imgainicio12 {
+          width: 70%;
+          height: 50%;
+          margin-left: 70px; }
+        header .container .primertitulo1inicio {
+          text-align: center; }
+        header .container .titulonoticia1 {
+          text-align: center; }
+        header .container .titulovideoinicio1 {
+          margin-left: 40px; }
+        header .container .primeraimagennacional {
+          width: 80%;
+          height: 40%;
+          margin-top: 20px;
+          margin-left: 30px; }
+        header .container .videoayudamc {
+          display: none; }
+        header .container .mariacorina {
+          display: none; }
+        header .container .textmariacorina {
+          display: none; }
+        header .container .img2maria {
+          margin-top: 20px;
+          height: 60%;
+          width: 32%; }
+        header .container .videoayudamc1 {
+          margin-left: 5px; }
+        header .container .imgdesastrenatural {
+          width: 70%;
+          height: 50%;
+          margin-left: 70px; }
+        header .container .dukevi {
+          width: 20%;
+          height: 20%;
+          margin-left: 50px; } }
+    header .container .primertitulo1inicio {
+      margin-top: 5px;
+      margin-left: 25px; }
+    header .container .imgainicio {
+      width: 90%;
+      height: 90%;
+      margin-left: 10px; }
+    header .container .titulonoticia1 {
+      margin-top: 5px;
+      margin-left: 5px;
+      margin-right: 5px; }
+    header .container .primerparrafoinicio {
+      font-size: small;
+      margin-top: 5px;
+      margin-left: 5px;
+      margin-right: 5px; }
+    header .container .titulovideoinicio1 {
+      margin-top: 5px;
+      margin-left: 5px;
+      margin-right: 5px; }
+    header .container .videoinicio1 {
+      margin-left: 10px; }
+  header .container {
+    display: grid;
+    grid-template-columns: repeat(1, 2fr);
+    gap: 1em; }
+    @media screen and (max-width: 480px) {
+      header .container {
+        grid-template-columns: 1fr;
+        gap: 10px; }
+        header .container .fototwitter {
+          height: 10px;
+          width: 10px; }
+        header .container .videoayudamc {
+          display: none; }
+        header .container iframe .mariacorina {
+          display: none; }
+        header .container .ejemplodosN {
+          margin-left: 20px; }
+        header .container .img2maria {
+          display: none; }
+        header .container .mariacorina {
+          display: none; }
+        header .container .videoayudamc1 {
+          margin-left: 15px; }
+        header .container .primeraimagennacional {
+          width: 80%;
+          height: 40%;
+          margin-top: 20px;
+          margin-left: 30px; }
+        header .container .segundotituloun {
+          margin-left: 100px; }
+        header .container .primertitulonacional {
+          display: none; }
+        header .container .primeraimagennacional {
+          width: 50%;
+          height: 50%;
+          margin-top: 20px;
+          margin-left: 160px; }
+        header .container .imgainicio {
+          height: 100%;
+          width: 100%;
+          margin-left: 25px; }
+        header .container .primertitulo1inicio {
+          text-align: center; }
+        header .container .fototwitter {
+          display: none; } }
+  header .container {
+    display: grid;
+    grid-template-columns: repeat(1, 2fr);
+    gap: 1em; }
+    @media screen and (min-width: 1300px) {
+      header .container {
+        grid-template-columns: 1fr;
+        gap: 1em; }
+        header .container .primertitulo1inicio {
+          text-align: center; }
+        header .container .imgainicio12 {
+          height: 45%;
+          width: 45%;
+          margin-bottom: 5px;
+          margin-left: 376px; }
+        header .container .titulonoticia1 {
+          margin: 10px;
+          text-align: center; }
+        header .container .primerparrafoinicio {
+          font-size: large; }
+        header .container .sectioninicio1 {
+          display: none; }
+        header .container .primeraparte {
+          display: none; }
+        header .container .primeraimagennacional {
+          height: 45%;
+          width: 45%;
+          margin-top: 10px;
+          margin-left: 465px; }
+        header .container .videoayudamc {
+          margin-left: 20px; }
+        header .container .mariacorina {
+          margin-left: 20px; }
+        header .container .videoayudamc1 {
+          margin-left: 20px; }
+        header .container .primertitulonacional {
+          text-align: center; }
+        header .container .img2maria {
+          margin-top: 90px;
+          height: 70%;
+          width: 33%; }
+        header .container .fototwitter {
+          display: none; } }
 
-.container {
-  display: grid;
-  grid-template-columns: repeat(1, 2fr);
-  gap: 1em; }
-  @media screen and (min-width: 1300px) {
-    .container {
-      grid-template-columns: 1fr;
-      gap: 1em; }
-      .container .primeraparte {
-        display: none; } }
+.fototwitter {
+  width: 40%;
+  height: 50%;
+  margin-left: 80px; }
 
-.container {
-  display: grid;
-  grid-template-columns: repeat(1, 2fr);
-  gap: 1em; }
-  @media screen and (min-width: 900px) {
-    .container {
-      grid-template-columns: 1fr;
-      gap: 1em; }
-      .container .segundotituloun {
-        margin-left: 100px; } }
-
-.dukevi {
-  width: 80%;
-  height: 100%;
-  margin-top: 5px;
-  margin-left: 40px; }
+.segundotituloun {
+  text-align: center;
+  margin-right: 65px; }
 
 .imgdesastrenatural {
-  width: 70%;
+  width: 50%;
   height: auto;
   margin-top: 5px;
   margin-left: 55px; }
 
 .twitter {
   display: grid;
-  place-content: end;
-  justify-items: end;
   margin-top: 5px;
-  margin-bottom: 5px; }
+  margin-bottom: 5px;
+  margin-right: 10px; }
 
 .texvideo1un {
-  margin-left: 10px; }
+  margin-left: 10px;
+  margin-right: 10px; }
 
 .texvideo2un {
-  margin-left: 10px; }
+  margin-left: 10px;
+  margin-right: 10px; }
 
 .noticia2un {
-  margin-left: 10px; }
+  margin-left: 10px;
+  margin-right: 10px; }
 
 .segundotituloun {
   margin-left: 50px; }
+
+.videotragedia {
+  margin-left: 10px; }
+
+.videotragedia2 {
+  margin-left: 10px; }
 
 footer {
   display: grid; }
@@ -544,8 +1118,19 @@ header {
     list-style: none;
     display: grid;
     gap: 30px;
-    font-size: large;
+    font-family: 'roboto', sans-serif;
     margin-left: 5px; }
+
+.estilomenu {
+  background-color: whitesmoke; }
+
+.estilomenu a {
+  color: black;
+  padding: 0 10px; }
+
+.estilomenu a:hover {
+  background-color: #830d0d;
+  color: white; }
 
 main {
   background-color: #D1C7BD; }

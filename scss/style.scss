@@ -1,6 +1,6 @@
 @import "utilidades/mixin.scss";
 @import "utilidades/extend";
-@import "../scss/reset/reset";
+@import "./reset/reset";
 
 @import "utilidades/variables";
 
@@ -10,6 +10,8 @@
 @import "html/contacto";
 @import "html/internacionales";
 @import "html/ultimasnoticias";
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 
 
 
@@ -21,11 +23,22 @@ header{
                 list-style: none;
                 display:grid ;  
                 gap: 30px;
-                font-size:large;
+                font-family:  'roboto', sans-serif;
                 margin-left: 5px;
+
                 }}
          
+                .estilomenu{background-color: whitesmoke;}
 
+                .estilomenu a{
+                    color:black;
+                    padding: 0 10px;
+                }
+
+                .estilomenu a:hover{
+                    background-color:  rgb(131, 13, 13);
+                    color: white;
+                }
 
  main{background-color: #D1C7BD;}
 

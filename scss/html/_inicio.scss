@@ -6,12 +6,15 @@
 .sectioninicio2{background-color: #EFE9E1;}
 
 header{@include estilos-tituloprincipal;
-}
+
 
 .container6{@include grid-mobil(1 ,1em)}
 
 .container6{@include grid-tablet(1 ,1em)}
 
+.container6{@include grid-desktop (1 ,1em)}
+
+}
 
     footer{display: grid;}
 
@@ -19,6 +22,9 @@ header{@include estilos-tituloprincipal;
     .etiquetainicio{font-size: 10px;}
     .derechosinicio{@extend %estilos-derechos;}
     
+
+    .imgainicio12{width: 50%; height: 35%; margin-left: 90px;}
+    .titulonoticia1{text-align: center;}
 
     
 
